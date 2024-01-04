@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Kurale&display=swap');
+
+body{
+    background-color: rgb(64, 33, 241);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kurale', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    width: 500px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 50px;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+    padding-bottom: 40px;
+}
+.bmi-calculations{
+    margin-top: 20px;
+}
+label{
+    display: block;
+    margin-top: 10px;
+}
+input, select{
+    width: 95%;
+    padding: 10px;
+    margin-top: 10px;
+}
+select{
+    width: 100% !important;
+}
+/* select{
+        width: 100%;
+        padding: 10px;
+        margin-top: 10px;
+} */
+button{
+    background-color: rgb(64, 33, 241);
+    font-weight: 600;
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    padding: 10px 30px;
+    margin-top: 10px;
+    cursor:pointer;
+}

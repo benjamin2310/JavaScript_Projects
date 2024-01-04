@@ -1,0 +1,3 @@
+function bmiCalculate(){
+    alert("Calculate");
+}
