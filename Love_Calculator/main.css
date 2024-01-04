@@ -1,5 +1,60 @@
 @import url('https://fonts.googleapis.com/css2?family=Kurale&display=swap');
 
 body{
+    background-color: bisque;
     font-family: 'Kurale', serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    width: 500px;
+    background-color: floralwhite;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border: 2px solid firebrick;;
+}
+
+h2{
+    color: firebrick;
+    font-size: 24px;
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+.love-calculator{
+    margin-top: 20px;
+}
+
+label{
+    display: block;
+    margin-top: 10px;
+    color: firebrick;
+}
+input[type="text"]{
+    width: 95%;
+    padding:10px ;
+    margin-top: 10px;
+    color: firebrick;
+    border-radius: 6px;
+    border:solid firebrick
+}
+
+button{
+    background-color: firebrick;
+    color: aliceblue;
+    font-weight: 900;
+    border: none;
+    padding: 10px 30px;
+    margin-top: 10px;
+    border-radius: 6px;
+    cursor:pointer;
+}
+#result{
+    margin-top: 10px;
+    font-size: 22px;
 }
