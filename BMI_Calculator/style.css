@@ -17,7 +17,7 @@ body{
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     padding: 50px;
 }
-h1{
+span, h1{
     text-align: center;
     text-decoration: underline;
     padding-bottom: 40px;
@@ -42,7 +42,7 @@ select{
         padding: 10px;
         margin-top: 10px;
 } */
-button{
+input[type="submit"]{
     background-color: rgb(64, 33, 241);
     font-weight: 600;
     color: #fff;

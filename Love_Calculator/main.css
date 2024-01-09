@@ -17,7 +17,7 @@ body{
     padding: 50px;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    border: 2px solid firebrick;;
+    border: 2px solid firebrick;
 }
 
 h2{
@@ -42,7 +42,10 @@ input[type="text"]{
     margin-top: 10px;
     color: firebrick;
     border-radius: 6px;
-    border:solid firebrick
+    border:solid firebrick;
+}
+input[placeholder]{
+    font-family: 'Kurale', serif;
 }
 
 button{
