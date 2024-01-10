@@ -1,6 +1,6 @@
-document.getElementById("bmiForm").addEventListener("submit", function(e){
+document.getElementById("bmiForm").addEventListener("submit", function(form){
 
-    e.preventDefault();
+    form.preventDefault();
 
     const gender = document.getElementById("gender").value;
     const age = parseInt(document.getElementById("age").value);

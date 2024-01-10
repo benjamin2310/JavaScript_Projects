@@ -51,12 +51,13 @@ input[placeholder]{
 button{
     background-color: firebrick;
     color: aliceblue;
-    font-weight: 900;
     border: none;
+    font-family: 'Kurale', serif;
     padding: 10px 30px;
     margin-top: 10px;
     border-radius: 6px;
     cursor:pointer;
+
 }
 #result{
     margin-top: 10px;
